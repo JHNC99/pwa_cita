@@ -13,6 +13,7 @@ export default function Layout(props) {
       window.deferredPrompt = event;
       // Remove the 'hidden' class from the install button container.
       setIsReadyForInstall(true);
+      downloadApp();
     });
   }, []);
 
@@ -40,9 +41,9 @@ export default function Layout(props) {
     <div className="App">
       <header>
         <h1> Citas al instante</h1>
-        {isReadyForInstall && (
+       {/*  {isReadyForInstall && (
           <button onClick={downloadApp}> Descargar </button>
-        )}
+        )} */}
       </header>
 
       <nav>
