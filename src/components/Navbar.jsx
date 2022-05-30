@@ -76,11 +76,11 @@ const Navbar = () => {
         id="nav-content"
       >
         <div className="text-sm lg:flex-grow">
-          <Link
+        <Link
+            to="/homecitas"
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-            to="/"
           >
-            Inicio
+            Especialistas
           </Link>
           <Link
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
@@ -90,9 +90,9 @@ const Navbar = () => {
           </Link>
           <Link
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-            to="/galeria"
+            to="/"
           >
-            Galería
+            Iniciar session
           </Link>
         </div>
         <div>

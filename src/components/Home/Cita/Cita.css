@@ -1,0 +1,14 @@
+.title-cita{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(8, 161, 161);
+    margin-top: 20px;
+
+}
+.alert .alert-danger{
+    color: red;
+    background: #f9c851;
+}
+th{
+    color: #ffff;
+}

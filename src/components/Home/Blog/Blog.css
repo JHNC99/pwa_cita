@@ -40,15 +40,19 @@
   color: #f9c851;
 }
 .view-more {
-    font-size: 16px;
-    font-weight: bold;
-  color:rgb(8, 161, 161);
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(8, 161, 161);
   text-align: right;
   margin-top: 20px;
 }
-.title-home{
-    font-size: 20px;
-    font-weight: bold;
-    color:rgb(8, 161, 161);
-    margin-top: 20px;
+.title-home {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(8, 161, 161);
+  margin-top: 20px;
+}
+.btn-medico{
+    background: #f9c851;
+    display: inline-block;
 }

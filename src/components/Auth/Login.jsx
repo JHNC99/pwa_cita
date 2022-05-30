@@ -1,15 +1,17 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link,useNavigate} from "react-router-dom";
 const Login = () => {
   const navigate = useNavigate();
   const handleLogin = () => {
-    navigate("/homecitas");
+    navigate("/citas");
   };
   return (
     <div className="flex flex-col justify-center items-center h-screen w-full ">
       <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2">
+          <label
+            className="block text-gray-700 text-sm font-bold mb-2"
+          >
             Nombre de usuario
           </label>
           <input
@@ -21,7 +23,9 @@ const Login = () => {
           />
         </div>
         <div className="mb-6">
-          <label className="block text-gray-700 text-sm font-bold mb-2">
+          <label
+            className="block text-gray-700 text-sm font-bold mb-2"
+          >
             Password
           </label>
           <input
