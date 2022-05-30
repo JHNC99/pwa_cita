@@ -146,11 +146,11 @@
     }
   ],
   "lang": "es-MX",
-  "name": "PWA Lasfito test",
+  "name": "PWA MediApp",
   "orientation": "portrait",
   "prefer_related_application": false,
   "scope": "/",
-  "short_name": "PWA Lasfi",
+  "short_name": "PWA ByJonathan",
   "start_url": "/",
   "theme_color": "orange"
 }

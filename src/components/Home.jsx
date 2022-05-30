@@ -1,10 +1,15 @@
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
-    <>
-      <main>
-        <h2>Welcome maifrend</h2>
-        <p>Navega un poco.</p>
-      </main>
-    </>
+    <div className="flex flex-col items-center justify-center h-screen text-center">
+      <h2 className="text-5xl font-bold text-gray-800">
+        Bienvenido a MediApp
+      </h2>
+      <Link to="/login">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-10 py-2 px-4 rounded-full">
+          Iniciar sesión
+        </button>
+      </Link>
+    </div>
   );
 }
