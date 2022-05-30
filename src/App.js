@@ -1,4 +1,4 @@
-import { Layout, Home, About, Gallery,Login } from "./components";
+import { Layout, Home, About, Gallery,Login,HomeCitas} from "./components";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <Route path="galeria" element={<Gallery />} />
         <Route path="acerca" element={<About />} />
         <Route path="login" element={<Login />} />
+        <Route path="homecitas" element={<HomeCitas />} />
       </Routes>
     </Layout>
   );
