@@ -41,7 +41,7 @@ const Citas = () => {
             cita.map((cita) => (
               <tr key={cita.id}>
                 <td className="border px-6 py-4">{cita.nombre}</td>
-                <td className="border px-6 py-4">{cita.correo}</td>
+                <td className="border px-6 py-4">{cita.email}</td>
                 <td className="border px-6 py-4">{cita.telefono}</td>
                 <td className="border px-6 py-4">{cita.fecha}</td>
                 <td className="border px-6 py-4">{cita.status}</td>
