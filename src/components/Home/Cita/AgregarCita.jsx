@@ -53,8 +53,8 @@ const AgregarCita = () => {
     <div className="agregar-cita">
       <h2 className="title-cita">Agendar cita</h2>
 
-      <div className="flex mb-4 justify-between">
-        <form className="w-1/2  m-2" onSubmit={handleSubmit}>
+      <div className="flex mb-4 justify-between ">
+        <form className="w-1/2 m-auto  mt-2" onSubmit={handleSubmit}>
           {error && (
             <div
               className="flex items-center bg-red-500 text-white text-sm font-bold px-4 py-3"
@@ -174,7 +174,7 @@ const AgregarCita = () => {
             Agendar cita
           </button>
         </form>
-        <div className="w-1/2 bg-gray-400"></div>
+        
       </div>
     </div>
   );

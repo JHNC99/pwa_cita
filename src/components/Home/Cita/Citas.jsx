@@ -40,7 +40,7 @@ const Citas = () => {
           {cita ? (
             cita.map((cita) => (
               <tr key={cita.id}>
-                <td className="border px-6 py-4">{cita.id}</td>
+                <td className="border px-6 py-4">{cita.nombre}</td>
                 <td className="border px-6 py-4">{cita.correo}</td>
                 <td className="border px-6 py-4">{cita.telefono}</td>
                 <td className="border px-6 py-4">{cita.fecha}</td>
