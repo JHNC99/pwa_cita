@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const EditarCita = () => {
   const { id } = useParams();
@@ -30,7 +30,7 @@ const EditarCita = () => {
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Cambiar estado de cita
           </label>
-          <select name="select" value={filtro.status} onChange={(e)=>filtro.status=e.target.value}>
+          <select name="select">
             <option value="cerrado" selected>
               Cumplido
             </option>

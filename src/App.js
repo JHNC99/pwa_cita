@@ -6,11 +6,11 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HomeCitas />} />
         <Route path="/galeria" element={<Gallery />} />
         <Route path="/acerca" element={<About />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/homecitas" element={<HomeCitas />} />
+        <Route path="/home" element={<Home/>} />
         <Route path="/agregar-cita" element={<AgregarCitas />} />
         <Route path="/citas" element={<Citas />} />
         <Route path='/edit/:id' element={<EditarCita />} />
